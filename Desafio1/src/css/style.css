@@ -1,0 +1,56 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+header.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 55px;
+}
+
+.cabecalho .logo,
+.cabecalho nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logo img{
+  width:48px;
+}
+
+.logo h1{
+  font-size:2rem;
+  font-weight: 800;
+}
+
+.cabecalho nav ul li{
+  margin-right: 20px;
+}
+
+.botao-verde-quadrado {
+  background: #5bc241;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.botao-verde-arredondado {
+  background: #5bc241;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
