@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+.container{
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap:30px;
+  background: #f7f7f7;
+}
+.container1,
+.container2{
+  width: 100%;
+}
+
+.container1 p,
+.container1 h2{
+  margin: 20px 0;
+}
+.container1 h2{
+  font-size:2.5rem;
+  font-weight:700;
+}
+
+.container1 p{
+  font-size: 1.8rem;
+  font-size: 300;
+}
+
+.container2 .propaganda{
+  width:90%;
+  margin: 0 auto;
+}
+.container2 .thumb-video{
+    display: flex;
+    width:90%;
+    margin:20px auto;
+}
+.container2 .thumb-video .thumb-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.container2 .thumb-video .thumb-text p{
+  font-size: 1.3rem;
+}
+.container2 .thumb-video .thumb-text h2{
+  font-size:1.7rem;
+  font-weight:700;
+}
